@@ -1,0 +1,11 @@
+﻿  源.cpp
+C:\Users\86184\Desktop\程序设计\Robot_V5\源.cpp(133,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+C:\Users\86184\Desktop\程序设计\Robot_V5\源.cpp(145,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\86184\Desktop\程序设计\Robot_V5\源.cpp(183,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\86184\Desktop\程序设计\Robot_V5\源.cpp(528,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+C:\Users\86184\Desktop\程序设计\Robot_V5\源.cpp(611,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+C:\Users\86184\Desktop\程序设计\Robot_V5\源.cpp(648,16): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\86184\Desktop\程序设计\Robot_V5\源.cpp(648,39): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\86184\Desktop\程序设计\Robot_V5\源.cpp(657,9): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\86184\Desktop\程序设计\Robot_V5\源.cpp(657,32): warning C4018: “<”: 有符号/无符号不匹配
+  Robot_V5.vcxproj -> C:\Users\86184\Desktop\程序设计\Robot_V5\Debug\Robot_V5.exe

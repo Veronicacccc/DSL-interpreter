@@ -1,0 +1,25 @@
+Entry welcome
+File data.txt
+Step welcome
+    Speak $name + "您好，请问有什么可以帮您？"
+    Listen 1
+    Branch 账单 bill
+    Branch 号码 number
+    Branch 投诉 complaint
+    Silence silence
+    Default default
+Step bill
+    Speak "您本月的账单是" + $amount  +  "元。"
+    Default welcome
+Step number
+    Speak "您的账号是" + $number
+    Default welcome
+Step complaint
+    Speak "好的，稍后将为您转接人工服务。"
+    Default welcome
+Step silence
+    Speak "感谢您的来电，再见！"
+    Exit
+Step default
+    Speak "不好意思没听清，请您再说一遍。"
+    Default welcome

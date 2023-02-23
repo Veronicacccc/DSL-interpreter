@@ -1,0 +1,99 @@
+Entry fvh
+File data.txt
+Step silence
+    Speak $name + "您好，请问有什么可以帮您？"
+    Branch 号码 txu
+    Listen 1
+Step default
+    Speak "您本月的账单是" + $amount  +  "元。"
+    Branch 账单 silence
+    Listen 1
+    Silence silence
+    Default default
+Step fvh
+    Speak "感谢您的来电，再见！"
+    Branch 姓名 default
+    Listen 1
+    Default default
+Step ynirqzkjmlouwzsa
+    Speak $name + "您好，请问有什么可以帮您？"
+    Branch 账单 fvh
+    Listen 0
+    Silence silence
+    Default default
+Step spaatrbquul
+    Speak "不好意思没听清，请您再说一遍。"
+    Branch 账单 ynirqzkjmlouwzsa
+    Listen 0
+    Silence silence
+    Default default
+Step jglvijazuusrdabpxy
+    Speak "感谢您的来电，再见！"
+    Branch 号码 spaatrbquul
+    Listen 1
+Step usk
+    Speak "您本月的账单是" + $amount  +  "元。"
+    Branch 账单 jglvijazuusrdabpxy
+    Listen 0
+Step sqezjkjlpse
+    Speak "不好意思没听清，请您再说一遍。"
+    Branch 账单 usk
+    Listen 1
+Step ewdtepecs
+    Speak "您本月的账单是" + $amount  +  "元。"
+    Branch 姓名 sqezjkjlpse
+    Listen 0
+    Default default
+Step qdgoaaxkgkpdgmxwb
+    Speak "感谢您的来电，再见！"
+    Branch 号码 ewdtepecs
+    Listen 1
+    Default default
+Step unjoe
+    Speak "不好意思没听清，请您再说一遍。"
+    Branch 号码 qdgoaaxkgkpdgmxwb
+    Listen 1
+    Silence silence
+    Default default
+Step utiwxrqtsnrokxo
+    Speak "感谢您的来电，再见！"
+    Branch 姓名 unjoe
+    Listen 1
+    Silence silence
+Step kius
+    Speak $name + "您好，请问有什么可以帮您？"
+    Branch 姓名 utiwxrqtsnrokxo
+    Listen 1
+Step gewcpjtticxyse
+    Speak "不好意思没听清，请您再说一遍。"
+    Branch 姓名 kius
+    Listen 1
+    Default default
+Step gmsy
+    Speak "不好意思没听清，请您再说一遍。"
+    Branch 账单 gewcpjtticxyse
+    Listen 0
+    Silence silence
+Step hrlrcvwfowjjdzrz
+    Speak "感谢您的来电，再见！"
+    Branch 姓名 gmsy
+    Listen 0
+    Silence silence
+    Default default
+Step vdzfq
+    Speak $name + "您好，请问有什么可以帮您？"
+    Branch 姓名 hrlrcvwfowjjdzrz
+    Listen 1
+    Silence silence
+Step qohzlztcdxthjron
+    Speak "感谢您的来电，再见！"
+    Branch 姓名 vdzfq
+    Listen 0
+    Silence silence
+    Default default
+Step txu
+    Speak "不好意思没听清，请您再说一遍。"
+    Branch 姓名 qohzlztcdxthjron
+    Listen 0
+    Silence silence
+    Exit
